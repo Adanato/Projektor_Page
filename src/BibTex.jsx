@@ -1,11 +1,27 @@
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
-  </div>
-</section>
+import React from "react";
+
+const BibTeX = () => {
+  const bibtexEntry = `
+    @misc{kang2023performance,
+      title={Performance Scaling via Optimal Transport: Enabling Data Selection from Partially Revealed Sources},
+      author={Kang, Feiyang and Just, Hoang Anh and Sahu, Anit Kumar and Jia, Ruoxi},
+      year={2023},
+      eprint={2307.02460},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+    }
+  `;
+
+  return (
+    <section className="section" id="BibTeX">
+      <div className="container is-max-desktop content">
+        <h2 className="title">BibTeX</h2>
+        <pre>
+          <code>{bibtexEntry}</code>
+        </pre>
+      </div>
+    </section>
+  );
+};
+
+export default BibTeX;

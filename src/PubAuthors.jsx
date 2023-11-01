@@ -1,5 +1,3 @@
-import React from "react";
-
 const PublicationAuthors = () => {
   const authors = [
     {
@@ -42,7 +40,7 @@ const PublicationAuthors = () => {
               <span className="author-name">{author.name}</span>
             )}
             <sup>{author.affiliationNumber}</sup>
-            {index < authors.length - 1 ? ", " : ""}
+            {index < authors.length - 1 ? ",  " : ""}
           </span>
         ))}
       </div>

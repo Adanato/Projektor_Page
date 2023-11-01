@@ -1,10 +1,10 @@
-import React from "react";
-
 //Main Components
 import Header from "./Header";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import Overview from "./Overview";
+import BibTeX from "./BibTex";
+
 function App() {
   return (
     <>
@@ -13,7 +13,8 @@ function App() {
       <main>
         <Overview />
       </main>
-      <Footer></Footer>
+      <BibTeX />
+      <Footer />
     </>
   );
 }
