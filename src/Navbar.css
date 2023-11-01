@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navbar-custom {
+  background-color: #dc2626; /* Dark red background */
+  border-color: #dc2626; /* Dark red border */
+  color: white; /* White text */
+  padding: 0.5rem 1rem; /* Padding around the nav */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-weight: 800; /* Bold text */
+  color: white; /* White text color */
+  text-decoration: none; /* Removes the underline from the link */
+  padding: 8px 16px; /* Adds some padding around the text */
+  transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+  font-size: 2em;
+}
+
+.navbar-links a {
+  color: white; /* White text color for links */
+  font-weight: 500; /* Medium font weight for links */
+  margin-right: 1rem; /* Spacing between links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.navbar-links a:hover {
+  text-decoration: underline; /* Adds an underline on hover */
+}
+
+/* Additional styling for .navbar-brand hover state to fit the red theme */
+.navbar-brand:hover,
+.navbar-brand:focus {
+  background-color: #dc2626; /* A slightly lighter red for hover/focus */
+  color: #fff; /* Keep the text color white */
+  text-decoration: none; /* Keeps the underline removed on hover/focus */
+}
