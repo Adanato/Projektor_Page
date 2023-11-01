@@ -1,6 +1,6 @@
 # Projektor Project Page Repo
 
-This is the repository that contains source code for the REDS Lab [Projektor website](https://https://adanato.github.io/Projektor_Page).
+This is the repository that contains source code for the REDS Lab [Projektor website](https://adanato.github.io/Projektor_Page).
 
 If you find Projektor useful for your work please cite:
 
