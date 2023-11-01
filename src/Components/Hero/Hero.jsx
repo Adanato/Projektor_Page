@@ -1,6 +1,5 @@
 import PubLinks from "./PubLinks.jsx"; // Assuming this component exists and handles the publication links
 import PubAuthors from "./PubAuthors.jsx"; // Assuming this component exists and handles the authors
-import "../NerfiesTemplate/static/css/index.css";
 
 const PublicationHero = () => {
   return (

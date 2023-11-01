@@ -1,4 +1,9 @@
+import { useState } from "react";
+import "./BibTeX.css"; // Ensure you have a BibTeX.css file with the relevant styles
+
 const BibTeX = () => {
+  const [isCopied, setIsCopied] = useState(false);
+
   const bibtexEntry = `
     @misc{kang2023performance,
       title={Performance Scaling via Optimal Transport: Enabling Data Selection from Partially Revealed Sources},
@@ -10,13 +15,37 @@ const BibTeX = () => {
     }
   `;
 
+  // Function to copy the BibTeX entry to clipboard
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(bibtexEntry.trim()).then(() => {
+      setIsCopied(true);
+      setTimeout(() => {
+        setIsCopied(false);
+      }, 1000); // Hide notification after 1 second
+    });
+  };
+
   return (
     <section className="section" id="BibTeX">
-      <div className="container is-max-desktop content">
+      {isCopied && (
+        <div className="notification-toast">Copied to clipboard!</div>
+      )}
+      <div className="container is-max-desktop content bibtex-container">
         <h2 className="title">BibTeX</h2>
-        <pre>
-          <code>{bibtexEntry}</code>
-        </pre>
+        <div className="bibtex-block">
+          <pre>
+            <code>{bibtexEntry}</code>
+          </pre>
+          <button
+            onClick={copyToClipboard}
+            className="button is-small is-primary clipboard-button"
+          >
+            <span className="icon">
+              <i className="fas fa-clipboard"></i>
+            </span>
+          </button>
+        </div>
       </div>
     </section>
   );
