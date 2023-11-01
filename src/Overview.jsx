@@ -1,5 +1,3 @@
-import React from "react";
-
 const Overview = () => {
   return (
     <section className="section">
@@ -25,18 +23,6 @@ const Overview = () => {
                 and physical simulation to NeRF-like models, we propose an
                 elastic regularization of the deformation field that further
                 improves robustness.
-              </p>
-              <p>
-                We show that <span className="dnerf">Nerfies</span> can turn
-                casually captured selfie photos/videos into deformable NeRF
-                models that allow for photorealistic renderings of the subject
-                from arbitrary viewpoints, which we dub <i>"nerfies"</i>. We
-                evaluate our method by collecting data using a rig with two
-                mobile phones that take time-synchronized photos, yielding
-                train/validation images of the same pose at different
-                viewpoints. We show that our method faithfully reconstructs
-                non-rigidly deforming scenes and reproduces unseen views with
-                high fidelity.
               </p>
             </div>
           </div>

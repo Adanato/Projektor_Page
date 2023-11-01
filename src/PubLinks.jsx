@@ -1,5 +1,3 @@
-import React from "react";
-
 const PublicationLinks = () => {
   return (
     <div className="column has-text-centered">

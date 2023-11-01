@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.css"; // Assuming you have a CSS file named Navbar.css in the same directory
 
 function Header() {

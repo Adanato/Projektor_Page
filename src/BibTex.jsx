@@ -1,5 +1,3 @@
-import React from "react";
-
 const BibTeX = () => {
   const bibtexEntry = `
     @misc{kang2023performance,
