@@ -1,8 +1,16 @@
-# React + Vite
+# Projektor Project Page Repo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the repository that contains source code for the REDS Lab [Projektor website](https://https://adanato.github.io/Projektor_Page).
 
-Currently, two official plugins are available:
+If you find Projektor useful for your work please cite:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+@misc{kang2023performance,
+      title={Performance Scaling via Optimal Transport: Enabling Data Selection from Partially Revealed Sources},
+      author={Kang, Feiyang and Just, Hoang Anh and Sahu, Anit Kumar and Jia, Ruoxi},
+      year={2023},
+      eprint={2307.02460},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+    }
+```
