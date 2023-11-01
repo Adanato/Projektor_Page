@@ -4,7 +4,9 @@ import Hero from "./Components/Hero/Hero";
 import Footer from "./Footer";
 import Overview from "./Overview";
 import BibTeX from "./BibTex";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import ImageGallery from "./ImageGallery";
+// replace with your actual image path
+
 function App() {
   return (
     <>
@@ -12,6 +14,7 @@ function App() {
       <Hero />
       <main>
         <Overview />
+        <ImageGallery />
       </main>
       <BibTeX />
       <Footer />

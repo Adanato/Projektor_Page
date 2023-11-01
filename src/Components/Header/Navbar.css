@@ -18,7 +18,8 @@
   text-decoration: none; /* Removes the underline from the link */
   padding: 8px 16px; /* Adds some padding around the text */
   transition: background-color 0.3s ease; /* Smooth background color transition on hover */
-  font-size: 2em;
+  font-size: 2.5em; /* Increased font size */
+  font-family: "Helvetica Neue", Arial, sans-serif; /* Professional font family */
 }
 
 .navbar-links a {
@@ -35,7 +36,7 @@
 /* Additional styling for .navbar-brand hover state to fit the red theme */
 .navbar-brand:hover,
 .navbar-brand:focus {
-  background-color: #dc2626; /* A slightly lighter red for hover/focus */
+  background-color: #b91c1c; /* A slightly lighter red for hover/focus */
   color: #fff; /* Keep the text color white */
   text-decoration: none; /* Keeps the underline removed on hover/focus */
 }

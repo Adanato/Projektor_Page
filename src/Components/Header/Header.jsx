@@ -6,11 +6,11 @@ function Header() {
       <header className="navbar-custom">
         <div className="navbar-container">
           <a href="#" className="navbar-brand">
-            REDS LAB
+            REDS LAB | Projektor
           </a>
           <nav className="navbar-links">
             {/* <a href="./index.html#a_quick_glance">A Quick Glance</a> */}
-            <a href="./index.html#paper_overview">Paper Overview</a>
+            <a href="./index.html#paper_overview">Overview</a>
             <a href="./index.html#examples">Examples</a>
             <a href="./index.html#ethics">Ethics and Disclosure</a>
           </nav>

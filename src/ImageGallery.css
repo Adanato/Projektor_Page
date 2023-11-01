@@ -1,0 +1,46 @@
+/* ImageGallery.css */
+
+/* Container mimicking Bootstrap's container */
+.gallery-container {
+  width: 80%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Responsive row mimicking Bootstrap's row */
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* Column for small devices */
+.gallery-column {
+  width: 100%; /* Full width on small devices */
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  margin-bottom: 16px; /* Space below the image */
+}
+
+/* Responsive image styling */
+.gallery-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px; /* Thumbnail effect */
+  border: 1px solid #ddd; /* Thumbnail effect */
+  padding: 4px; /* Thumbnail effect */
+}
+
+/* Media query for medium devices (tablet size, which is typically 768px and up) */
+@media (min-width: 768px) {
+  .gallery-column {
+    /* Mimicking Bootstrap's col-md-4 */
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}

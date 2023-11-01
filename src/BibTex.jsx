@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./BibTeX.css"; // Ensure you have a BibTeX.css file with the relevant styles
-
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClipboard } from "@fortawesome/free-solid-svg-icons";
 const BibTeX = () => {
   const [isCopied, setIsCopied] = useState(false);
 
@@ -42,7 +44,7 @@ const BibTeX = () => {
             className="button is-small is-primary clipboard-button"
           >
             <span className="icon">
-              <i className="fas fa-clipboard"></i>
+              <FontAwesomeIcon icon={faClipboard} />
             </span>
           </button>
         </div>
